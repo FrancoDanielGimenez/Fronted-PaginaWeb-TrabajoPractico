@@ -1,0 +1,29 @@
+.conteiner_nav{
+    background-color: rgb(143, 206, 62);
+    padding: 10px;
+    display: flex;
+}
+
+
+.navLink1{
+    border: solid;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 3px;
+}
+
+.navLink2{
+    border: solid;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 3px;
+    margin-left: auto;
+}
+
+.navLink3{
+    border: solid;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 3px;
+    
+}

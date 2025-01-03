@@ -1,0 +1,26 @@
+.conteiner_login{
+    border: solid;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 132px;
+    margin-bottom: 133px;
+}
+
+.btn_login{
+    border: solid;
+    background-color: rgb(143, 206, 62);
+    color: white;
+}
+
+.btn_login:hover{
+    background-color: rgb(90, 133, 33);
+    border: white;
+    border: solid;
+}
+
+label{
+    display: block;
+}
+ 

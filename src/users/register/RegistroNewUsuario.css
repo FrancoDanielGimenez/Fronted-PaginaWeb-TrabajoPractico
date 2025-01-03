@@ -1,0 +1,40 @@
+.form_new_usuario{
+    margin: auto;
+    border:10px groove;
+    padding-top: 20px;
+    width: 550px;
+    height: 500px;
+}
+
+.input_new_user{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.form_tipo_usuario{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_checkbox{
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+
+.btn_registrar{
+    margin-top: 20px;
+    border: solid;
+    color: white ;
+    background-color: rgb(143, 206, 62) ;
+}
+
+.btn_registrar:hover{
+    background-color: rgb(90, 133, 33);
+    border: white;
+    border: solid;
+}

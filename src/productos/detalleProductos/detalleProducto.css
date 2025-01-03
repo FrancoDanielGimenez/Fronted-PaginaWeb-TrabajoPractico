@@ -1,0 +1,22 @@
+.contenier_detalle{
+    border: solid ;
+    height: auto;
+    width: auto;
+    display:inline-block;
+    justify-content:center;
+    border-radius: 5px;
+    margin: 10px;
+   
+}
+
+.btn_volver{
+    border: solid;
+    color: white ;
+    background-color: rgb(143, 206, 62) ;
+}
+
+.btn_volver:hover{
+    background-color: rgb(90, 133, 33);
+    border: white;
+    border: solid;
+}

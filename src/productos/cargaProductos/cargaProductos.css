@@ -1,0 +1,31 @@
+.form_carga_productos{
+    margin: auto ;
+    border: solid;
+    border-radius: 5px;
+    width: 400px;
+    height: 550px;
+}
+
+
+.input_cargaProd{
+    border: 1px solid;
+    border-radius: 5px;
+    width: 300px;
+    height: 60px;
+}
+
+button{
+    border: solid;
+    border-radius: 5px;
+    margin: 0px 5px 5px 5px;
+    border: solid;
+    background-color: rgb(143, 206, 62);
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(90, 133, 33);
+    border: white;
+    border: solid;
+}
+

@@ -1,0 +1,26 @@
+.datos_usuario_compra{
+    text-align: left;
+    margin: 0px 10px;
+}
+
+.tabla_productos{
+    margin: 15px 10px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 12px;
+    font-size: 15px;
+    text-align: left;
+    border: solid 1px black;
+}
+
+.tabla_precio{
+    margin: 0 0 0 10px;
+    width: 15%;
+    border-collapse: collapse;
+}

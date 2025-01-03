@@ -1,0 +1,27 @@
+.conteiner_footer{
+   margin: 0;
+   background-color: rgb(143, 206, 62) ;
+}
+
+ul,ol{
+    list-style-type: none;
+    display: inline-block;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+.lista_contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+p{
+    margin: 0;
+}
