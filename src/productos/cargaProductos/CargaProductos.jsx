@@ -33,7 +33,7 @@ const CargaProductos = () =>{
     console.log(elementos)
 
     //Ruta a donde se redirige despues de crear un producto
-    navigate ("/")
+    navigate ("/MisProductos")
   }
   
   //Boton para regresar al Home

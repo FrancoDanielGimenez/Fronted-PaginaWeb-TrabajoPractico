@@ -11,10 +11,10 @@ const Nav = () =>{
               <NavLink to={'/'}><FontAwesomeIcon icon={faHouse}/> Inicio</NavLink>
             </div>
             <div className='navLink1'>
-              <NavLink to={'/CompraProductos'}><FontAwesomeIcon icon={faCartShopping} /> Carrito</NavLink>
+              <NavLink to={'/MisProductos'}><FontAwesomeIcon icon={faCartShopping} /> Mis Productos</NavLink>
             </div>
             <div className='navLink1'>
-              <NavLink to={'/CargaProductos'}><FontAwesomeIcon icon={faTruckFast} /> Proveedores</NavLink>
+              <NavLink to={'/CargaProductos'}><FontAwesomeIcon icon={faTruckFast} /> Nuevo Producto</NavLink>
             </div>
             <div className='navLink2'>
               <NavLink to={'/Login'}><FontAwesomeIcon icon={faUser} /> Iniciar Sesión</NavLink>

@@ -1,4 +1,4 @@
-import Cards from "../../components/Cards";
+import CardsModificar from "../../components/CardsModificar";
 import { useEffect,useState } from "react";
 
 const MisProductos = () =>{
@@ -29,8 +29,8 @@ const backurl = import.meta.env.VITE_BACK_URL
                   objectFit: "cover",
                 }}/>
             </div>
-            <h1>Home</h1>
-            {productos.map((prod)=>(<Cards prod={prod} key={prod.title} ></Cards>))}
+            <h1>Mis Productos</h1>
+            {productos.map((prod)=>(<CardsModificar prod={prod} key={prod.title} ></CardsModificar>))}
         </div>
         </>
     )
