@@ -6,17 +6,27 @@ const MisProductos = () =>{
 const backurl = import.meta.env.VITE_BACK_URL
  const [productos, setProductos] = useState([]);
   
+ const fetchback = async () => {
+  const response = await fetch( `${backurl}productos`);
+  const data = await response.json();
+  setProductos(data.data)
+}
+
   useEffect(() => {
-    const fetchback = async () => {
-      const response = await fetch( `${backurl}productos`);
-      const data = await response.json();
-      setProductos(data.data)
-
-   
-    }
-
     fetchback()
   },[])
+
+  const handleDelate = async (id) =>{
+    const response = await fetch(`${backurl}productos/${id}`,{
+      method:"DELETE",
+      headers:{"Content-Type": "application/json"
+      },
+  });
+    const data = await response.json();
+    // setProducto(...data.data) 
+    console.log(data)   
+    fetchback()
+}
 
     return(
         <>
@@ -30,7 +40,7 @@ const backurl = import.meta.env.VITE_BACK_URL
                 }}/>
             </div>
             <h1>Mis Productos</h1>
-            {productos.map((prod)=>(<CardsModificar prod={prod} key={prod.title} ></CardsModificar>))}
+            {productos.map((prod)=>(<CardsModificar prod={prod} key={prod.title} handleDelate={handleDelate} ></CardsModificar>))}
         </div>
         </>
     )

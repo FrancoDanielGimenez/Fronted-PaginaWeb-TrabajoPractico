@@ -4,21 +4,9 @@ import {faCartShopping, faMagnifyingGlass } from '@fortawesome/free-solid-svg-ic
 
 import '../styles/cards.css';
 
-const CardsModificar = ({prod}) =>{
-
-    const backurl = import.meta.env.VITE_BACK_URL
-    const navigate = useNavigate()
-
-  const handleDelate = async (id) =>{
-        const response = await fetch(`${backurl}productos/${id}`,{
-          method:"DELETE",
-          headers:{"Content-Type": "application/json"
-          },
-      });
-        const data = await response.json();
-        // setProducto(...data.data) 
-        console.log(data)   
-  }
+const CardsModificar = ({prod,handleDelate}) =>{
+    
+  const navigate = useNavigate()
 
   const handleUpdate = async (id) =>{
         navigate(`/ModificarProductos/${id}`)
