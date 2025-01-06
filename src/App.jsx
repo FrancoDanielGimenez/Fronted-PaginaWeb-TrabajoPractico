@@ -10,6 +10,7 @@ import CompraProductos from './productos/compraProductos/CompraProductos.jsx';
 import Login from './users/login/Login.jsx'
 import './App.css'
 import Home from './pages/home/Home.jsx';
+import MisProductos from './productos/misProductos/MisProductos.jsx';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>} /> {/**Ver Todos los blogs*/}
           <Route path='/Login' element={<Login/>} /> {/**Login de la pagina*/}
+          <Route path='/MisProductos' element={<MisProductos/>} /> {/**Ver Productos creado propios*/}
           <Route path='/CargaProductos' element={<CargaProductos/>} /> {/**Cargar los productos cargados*/}
           <Route path='/ModificarProductos' element={<ModificarProductos/>} /> {/**Modificar los productos cargados*/}
           <Route path='/ListaProductos' element={<ListaProductos/>} /> {/**Lista los productos cargados*/}
